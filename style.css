@@ -130,3 +130,27 @@ main {
     color: #495057;
     padding-top: 20px;
 }
+.container-btn-copiar {
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    background-color: aqua;
+    padding-left: 40px;
+}
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 4px;
+}
