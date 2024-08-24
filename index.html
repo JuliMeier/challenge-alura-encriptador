@@ -30,14 +30,17 @@
         </section>
         <section class="section-imagen">
             <div class="container-imagen">
-                <img src="./imagenes/Muñeco.svg" alt="imagen-busqueda">
+                <img src="./imagenes/Muñeco.svg" alt="imagen-busqueda" class="imagen-result">
+                <!-- aca iria el loader hidden como class en el div de abajo-->
+                <div class="loader hidden"></div> 
             </div>
+            
             <div class="container-parrafo">
-                <h3>Ningún mensaje fue <br>encontrado</h3>
-                <p>Ingrese el texto que desees encriptar o <br>desencriptar.</p>
+                <h3 class="titulo-resultado">Ningún mensaje fue <br>encontrado</h3>
+                <p class="parrafo-resultado">Ingrese el texto que desees encriptar o <br>desencriptar.</p>
             </div>
             <div class="container-btn-copiar">
-                <input type="button" class="btn-copiar" value="Copiar">
+                <input type="button" class="btn-copiar hidden" value="Copiar">
             </div>
             <div class="container-resultado">
                 <p class="texto-resultado"></p>
